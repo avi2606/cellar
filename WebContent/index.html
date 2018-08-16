@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cellar</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="header">
+	<input type="text" id="searchKey"/>
+	<button id="btnSearch">Search</button>
+	<button id="btnAdd">New Employee</button>
+</div>
+
+
+<div class="leftArea">
+<ul id="employeeList"></ul>
+</div>
+
+<form id="employeeForm">
+	
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="empID" name="empID" type="text" disabled />
+
+<label>Name:</label>
+<input type="text" id="empName" name="empName" required>
+
+<label>Department:</label>
+<input type="text" id="empDept" name="empDept"/>
+
+<label>Salary:</label>
+<input type="text" id="empSalary" name="empSalary"/>
+
+<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>
+
+</div>
+
+</form>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
